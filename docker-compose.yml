@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: ubiuser1
+      POSTGRES_PASSWORD: ubitect
+      POSTGRES_DB: ubidb1
+    volumes:
+      - ./data/1_schema_ubi.sql:/docker-entrypoint-initdb.d/1_schema_ubi.sql
+      - ./data/2_data_sampling.sql:/docker-entrypoint-initdb.d/2_data_sampling.sql
+    ports:
+      - "5433:5432"
+  app:
+    build: .
+    container_name: llift_ae_container
+    environment:
+      - OPENAI_API_KEY=sk-xxxxx
+    depends_on:
+      - db
+    command: tail -f /dev/null
