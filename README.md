@@ -13,7 +13,7 @@ For verification, we provide a docker image to run the program with several case
 1. `docker-compose build app` to build image
 2. `docker-compose up -d`  start the containers
 3. `docker exec -it llift_ae_container /bin/bash` to go to the container "app"
-4. `cd /app/app/LLift-Code` to go to the project directory
+4. `cd /app/app` to go to the project directory
 5. `/bin/bash run_min_expr.sh` to run the program
 
 

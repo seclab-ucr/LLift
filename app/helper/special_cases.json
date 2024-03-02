@@ -1,0 +1,74 @@
+{
+    "v4l2_subdev_call": {
+        "file": "include/media/v4l2-subdev.h",
+        "lineno": [
+            978,
+            994
+        ],
+        "version": "v4.14"
+    },
+    "call_void_hook": {
+        "file": "security/security.c",
+        "lineno": [
+            199,
+            205
+        ],
+        "version": "v4.14"
+    },
+    "ec_read": {
+        "file": "drivers/acpi/ec.c",
+        "lineno": [
+            882,
+            897
+        ],
+        "version": "v4.14"
+    },
+    "b53_read8": {
+        "file": "drivers/net/dsa/b53/b53_priv.h",
+        "lineno": [
+            207,
+            216
+        ],
+        "version": "v4.14"
+    },
+    "lookup_address": {
+        "file": "arch/x86/mm/pageattr.c",
+        "lineno": [
+            394,
+            405
+        ],
+        "version": "v4.14"
+    },
+    "lookup_address_in_pgd": {
+        "file": "arch/x86/mm/pageattr.c",
+        "lineno": [
+            349,
+            392
+        ],
+        "version": "v4.14"
+    },
+    "start_transaction":{
+        "file": "fs/btrfs/transaction.c",
+        "lineno": [
+            475,
+            611
+        ],
+        "version": "v4.14"
+    },
+    "afinfo->decode_session":{
+        "file": "net/ipv4/xfrm4_policy.c",
+        "lineno": [
+            109,
+            219
+        ],
+        "version": "v4.14"
+    },
+    "decode_rs16": {
+        "file": "lib/reed_solomon/decode_rs.c",
+        "lineno": [
+            1,
+            271
+        ],
+        "version":"v4.14"
+    }
+}
