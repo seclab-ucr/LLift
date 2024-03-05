@@ -41,3 +41,15 @@ The expected result should be:
 > focusing on the "must_init", it should be either empty or "something" (i.e., a varaible)
 
 > **Note**: the result may be slightly different due to the randomness of GPT-4
+
+
+## Run single case
+
+use `python run.py --id <n> --group <m>` to run a single case, where `n` is the case number and `m` is the group number. The group number has the following rule:
+
+> - 20: TP cases of UBITect, use for test (bug-50)
+> -  3: selective cases for comparison (Cmp-40)
+> - 11: random-1000
+> - 2: a small subset of "20", for quick test
+
+For Cmp-40. The id from -412 to -400 are 13 real bugs, and -626 to -600 are 27 false positives from UBITect.
